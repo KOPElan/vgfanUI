@@ -1,0 +1,22 @@
+{
+    "snowf": {
+        "environment": "development",
+        "port": "8089",
+        "router": {
+            "default": "home",
+            "error": "/shared/error.html",
+            "views": "./views",
+            "layout": "./views/shared",
+            "root": "./wwwroot"
+        },
+        "useCookie": true,
+        "authentication": {
+            "enable": true,
+            "method": "form",
+            "loginUrl": "/home/login",
+            "cookieName": "snowf.Auth",
+            "expires": 3600,
+            "domain": ""            
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vgfan",
+  "version": "1.0.0",
+  "description": "vgfan UI project",
+  "main": "index.js",
+  "dependencies": {
+    "snowframework": "^1.2.2",
+    "uikit": "^3.0.0-beta.35"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOPElan/vgfanUI.git"
+  },
+  "author": "KOPElan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KOPElan/vgfanUI/issues"
+  },
+  "homepage": "https://github.com/KOPElan/vgfanUI#readme"
+}
